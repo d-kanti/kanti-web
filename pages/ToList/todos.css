@@ -1,0 +1,89 @@
+.content{
+  background-color: white;
+  font-family: monospace;
+  margin: 200px auto;
+  max-width: 350px;
+  padding: 0;
+  box-shadow: 0px 7px 20px #888888;
+  }
+
+.done{
+  text-decoration: line-through;
+  color: gray;
+}
+
+body{
+    background-image: linear-gradient(to right, red, white, green);
+}
+
+
+ul{
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+
+h1{
+  text-align: left;
+  margin: 0;
+  padding:15px;
+  background-color: steelblue;
+  color: white;
+}
+
+li:nth-of-type(2n){
+  background-color: rgb(237, 237, 237);
+}
+
+li:nth-of-type(2n) .del{
+  color: rgb(237, 237, 237);
+}
+
+li:nth-of-type(2n+1){
+  background-color: white;
+}
+
+input{
+width: 90%;
+border: none;
+background-color: rgb(237, 237, 237);
+margin: 0;
+padding: 15px 5%;
+font-size: 1.5em;
+
+}
+
+#plus{
+  float: right;
+  margin-right: 15px;
+}
+
+li{
+  line-height: 40px;
+  list-style: none;
+}
+
+
+
+
+.del{
+text-align: center;
+  height: 40px;
+  width: 0;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  transition: 1s;
+  font-weight: 800;
+}
+
+.spacer{
+  width: 14px;
+  margin: 0 5px;
+}
+
+li:hover .del{
+  width:40px;
+  transition: 0.1s;
+}
