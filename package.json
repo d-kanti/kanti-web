@@ -15,5 +15,8 @@
     "express": "^4.17.1",
     "html": "^1.0.0",
     "path": "^0.12.7"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   }
 }
